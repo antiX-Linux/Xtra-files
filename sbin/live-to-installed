@@ -2,7 +2,7 @@
 
 ME=${0##*/}
 
-W_MANAGERS="fluxbox icemwn jwm"
+W_MANAGERS="fluxbox icewm jwm"
 PRETEND=
 
 usage() {
