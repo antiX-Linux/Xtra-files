@@ -33,6 +33,7 @@ main() {
             -help|h) usage                       ;;
          -pretend|p) PRETEND=echo                ;;
          -PRETEND|P) PRETEND=echo ; VERBOSE=true ;;
+                  *) error "Unknown argument: -$param" ;;
         esac
     done
 
